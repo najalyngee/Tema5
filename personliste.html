@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="">
+</head>
+
+<body>
+
+    <div id="liste">
+        <!--
+<h3></h3>
+<img src="" alt="">
+<p></p>
+-->
+    </div>
+
+    <script>
+        let person = [];
+
+        document.addEventListener("DOMContentLoaded", start);
+
+        function start() {
+            let dest = document.querySelector("#liste");
+
+            async function getJson() {
+                let jsonData = await fetch("https://mandalskeawebspace.dk/claude_php/clean_up_spreadsheet.php?id=1OLlD_GRoz71piHvnW306omRAyHS7vtLOILQt-K0YF_c");
+                Person = await jsonData.json();
+                visPerson();
+
+            }
+
+
+            function() {
+                alert("hi")
+                person.forEach(Person => {
+                    dest.innerHTML += `<div class = "Person"> <h3> ${
+                        eachPerson.navn
+                    } </h3><img src = "${eachPerson.billede}"> <p> type: ${eachPerson.alder} levested:${eachPerson.levested} </p> </div>`;
+                })
+
+
+            }
+
+            getJson()
+        }
+    </script>
+
+
+</body>
+
+</html>

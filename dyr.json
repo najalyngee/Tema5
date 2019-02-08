@@ -1,0 +1,33 @@
+[{
+        "navn": "dyr",
+        "type": "pattedyr",
+        "levested": "svinefarm",
+        "billede": "http://helf-kea.dk/test/gris.png"
+            },
+    {
+        "navn": "frø",
+        "type": "amfibie",
+        "levested": "søer",
+        "billede": "http://helf-kea.dk/test/frog.png"
+            },
+    {
+        "navn": "ræv",
+        "type": "pattedyr",
+        "levested": "skove",
+        "billede": "http://helf-kea.dk/test/fox.png"
+            },
+    {
+        "navn": "sild",
+        "type": "fisk",
+        "levested": "havet",
+        "billede": "http://helf-kea.dk/test/sild.jpg"
+            },
+    {
+        "navn": "kroko",
+        "type": "reptil",
+        "levested": "floderne",
+        "billede": "http://helf-kea.dk/test/kroko.jpg"
+            }
+
+
+        ]
